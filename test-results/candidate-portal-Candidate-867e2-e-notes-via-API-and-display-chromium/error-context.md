@@ -1,0 +1,63 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - img [ref=e6]
+        - heading "ResumeSeeker" [level=1] [ref=e8]:
+          - text: Resume
+          - generic [ref=e9]: Seeker
+      - list [ref=e11]:
+        - listitem [ref=e12]:
+          - link "Home" [ref=e13] [cursor=pointer]:
+            - /url: /
+            - img [ref=e14] [cursor=pointer]
+            - text: Home
+        - listitem [ref=e17]:
+          - link "Templates" [ref=e18] [cursor=pointer]:
+            - /url: /templates
+            - img [ref=e19] [cursor=pointer]
+            - text: Templates
+        - listitem [ref=e22]:
+          - link "Feedback" [ref=e23] [cursor=pointer]:
+            - /url: /feedback
+            - img [ref=e24] [cursor=pointer]
+            - text: Feedback
+        - listitem [ref=e26]:
+          - link "Login" [ref=e27] [cursor=pointer]:
+            - /url: /login
+            - img [ref=e28] [cursor=pointer]
+            - text: Login
+        - listitem [ref=e31]:
+          - link "Sign Up" [ref=e32] [cursor=pointer]:
+            - /url: /signup
+            - img [ref=e33] [cursor=pointer]
+            - text: Sign Up
+      - paragraph [ref=e37]: © 2025 ResumeSeeker
+    - main [ref=e38]:
+      - generic [ref=e39]:
+        - generic [ref=e40]:
+          - button "Toggle Sidebar" [ref=e41] [cursor=pointer]:
+            - img
+            - generic [ref=e42] [cursor=pointer]: Toggle Sidebar
+          - link "ResumeSeeker" [ref=e43] [cursor=pointer]:
+            - /url: /
+            - img [ref=e44] [cursor=pointer]
+            - generic [ref=e46] [cursor=pointer]:
+              - text: Resume
+              - generic [ref=e47] [cursor=pointer]: Seeker
+        - button "Toggle theme" [ref=e48] [cursor=pointer]:
+          - img
+          - generic [ref=e49] [cursor=pointer]: Toggle theme
+      - main [ref=e50]:
+        - generic [ref=e52]:
+          - heading "404" [level=1] [ref=e53]
+          - heading "This page could not be found." [level=2] [ref=e55]
+      - region "Notifications (F8)":
+        - list
+  - button "Open Next.js Dev Tools" [ref=e61] [cursor=pointer]:
+    - img [ref=e62] [cursor=pointer]
+  - alert [ref=e65]
+```

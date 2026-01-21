@@ -1,0 +1,41 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - generic [ref=e5]:
+    - generic [ref=e6]:
+      - img [ref=e7]
+      - heading "ResumeSeeker" [level=1] [ref=e9]:
+        - text: Resume
+        - generic [ref=e10]: Seeker
+    - list [ref=e12]:
+      - listitem [ref=e13]:
+        - button [disabled] [ref=e14]
+      - listitem [ref=e15]:
+        - button [disabled] [ref=e16]
+    - paragraph [ref=e18]: © 2025 ResumeSeeker
+  - main [ref=e19]:
+    - generic [ref=e20]:
+      - generic [ref=e21]:
+        - button "Toggle menu" [ref=e22]:
+          - img [ref=e23]
+          - generic [ref=e25]: Toggle menu
+        - button "Toggle Sidebar" [ref=e26]:
+          - img [ref=e27]
+          - generic [ref=e29]: Toggle Sidebar
+        - link "ResumeSeeker" [ref=e30]:
+          - /url: /
+          - img [ref=e31]
+          - generic [ref=e33]:
+            - text: Resume
+            - generic [ref=e34]: Seeker
+      - button "Toggle theme" [disabled] [ref=e35]:
+        - img [ref=e36]
+        - generic [ref=e42]: Toggle theme
+    - main [ref=e43]:
+      - generic [ref=e45]:
+        - img [ref=e46]
+        - paragraph [ref=e48]: Loading session...
+    - region "Notifications (F8)":
+      - list
+```

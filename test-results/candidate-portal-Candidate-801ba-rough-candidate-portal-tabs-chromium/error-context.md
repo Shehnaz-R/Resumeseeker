@@ -1,0 +1,74 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - img [ref=e6]
+        - heading "ResumeSeeker" [level=1] [ref=e8]:
+          - text: Resume
+          - generic [ref=e9]: Seeker
+      - list [ref=e11]:
+        - listitem [ref=e12]:
+          - link "Home" [ref=e13] [cursor=pointer]:
+            - /url: /
+            - img [ref=e14] [cursor=pointer]
+            - text: Home
+        - listitem [ref=e17]:
+          - link "Templates" [ref=e18] [cursor=pointer]:
+            - /url: /templates
+            - img [ref=e19] [cursor=pointer]
+            - text: Templates
+        - listitem [ref=e22]:
+          - link "Feedback" [ref=e23] [cursor=pointer]:
+            - /url: /feedback
+            - img [ref=e24] [cursor=pointer]
+            - text: Feedback
+      - paragraph [ref=e27]: © 2025 ResumeSeeker
+    - main [ref=e28]:
+      - generic [ref=e29]:
+        - generic [ref=e30]:
+          - button "Toggle Sidebar" [ref=e31] [cursor=pointer]:
+            - img
+            - generic [ref=e32] [cursor=pointer]: Toggle Sidebar
+          - link "ResumeSeeker" [ref=e33] [cursor=pointer]:
+            - /url: /
+            - img [ref=e34] [cursor=pointer]
+            - generic [ref=e36] [cursor=pointer]:
+              - text: Resume
+              - generic [ref=e37] [cursor=pointer]: Seeker
+        - button "Toggle theme" [ref=e38] [cursor=pointer]:
+          - img
+          - generic [ref=e39] [cursor=pointer]: Toggle theme
+      - main [ref=e40]:
+        - generic [ref=e42]:
+          - generic [ref=e43]:
+            - img [ref=e45]
+            - generic [ref=e48]: Welcome Back!
+            - generic [ref=e49]: Log in to continue your ResumeSeeker journey.
+          - generic [ref=e51]:
+            - generic [ref=e52]:
+              - generic [ref=e53]:
+                - img [ref=e54]
+                - text: Email Address
+              - textbox "Email Address" [ref=e57]
+            - generic [ref=e58]:
+              - generic [ref=e59]:
+                - img [ref=e60]
+                - text: Password
+              - textbox "Password" [ref=e63]
+            - button "Login to Your Account" [ref=e64] [cursor=pointer]:
+              - text: Login to Your Account
+              - img
+          - generic [ref=e65]:
+            - link "Don't have an account? Sign Up" [ref=e66] [cursor=pointer]:
+              - /url: /signup
+            - link "Forgot password?" [ref=e67] [cursor=pointer]:
+              - /url: "#"
+      - region "Notifications (F8)":
+        - list
+  - button "Open Next.js Dev Tools" [ref=e73] [cursor=pointer]:
+    - img [ref=e74] [cursor=pointer]
+  - alert [ref=e77]
+```
