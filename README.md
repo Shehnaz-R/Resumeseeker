@@ -76,3 +76,8 @@ The application will be available at `http://localhost:9006`.
 *   `npm start`: Starts the production server.
 *   `npm run lint`: Runs the linter.
 *   `npm run prisma:studio`: Opens Prisma Studio to view/edit database records.
+
+## 👩‍💻 Developers
+
+**Shehnaz Rangrez**
+**Shreya ojha**
