@@ -79,5 +79,6 @@ The application will be available at `http://localhost:9006`.
 
 ## 👩‍💻 Developers
 
-**Shehnaz Rangrez**
+**Shehnaz Rangrez** 
+**&**
 **Shreya ojha**
